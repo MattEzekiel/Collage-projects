@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+p{
+    background: silver;
+    padding: 5%;
+    width: 24.7%;
+    display: inline-block;
+    margin: auto;
+}
+.contenedor {
+    width: 1200px;
+    margin: auto;
+    background: teal;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}

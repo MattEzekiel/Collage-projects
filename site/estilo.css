@@ -1,0 +1,95 @@
+/*====tag universal:"*", aplica a todo el documento====*/
+/*resetear el documento*/
+*{
+    /*propiedad*//*:*//*valor*//*;*/
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*fin del reseteo*/
+/*Diseño de la página*/
+/*tag nos semantica con nombre .container*/
+.container{
+    width: 1360px;
+    margin: auto;
+/*Encabezado*/
+}
+header{
+    background-color: #43002c;
+    padding-top: 56px; /*Relleno de arriba*/
+    padding-bottom: 44px; /*Relleno de abajo*/
+}
+
+/*Cabezal 1*/
+header h1{
+    color: #788596;
+    font-size: 50px;
+   margin-left: 22px;
+    margin-top: -40px;
+}
+header h1 span{
+    color: #fd0200;
+    margin-top: auto;
+}
+/*Cabezal 2*/
+header h2{
+    color: #006ea6;
+    font-weight: 100;/*peso de fuente*/
+    font-size: 28px;
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+}
+
+
+/*Pie de página*/
+footer{
+    background-color: black;/*fonde de color*/
+    color: white;
+    margin-top: 50px;
+}
+footer p{
+    text-align: center;
+}
+
+/*Sections*/
+section{
+    margin-left: 80px;
+    padding-top: 32px;
+    padding-bottom: ;
+}
+/*Encabezado 1*/
+section h1{
+    color: #004a7b;
+    font-size: 32px;
+}
+/*Encabezado 2*/
+section h2{
+    color: #00638a;
+    font-weight: lighter;   
+}
+/*Parrafo*/
+section p{
+    margin-left: 150px;
+    margin-right: 250px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/*Imagens*/
+article div{ /*Poner los bloques en fila*/
+    width: 20%; /*Tamaño*/
+    display: inline-block;
+    margin-top: 50px;
+   
+}
+article div img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -50px;
+}
+figurecaption{
+    font-family: cursive;
+    background-color: dimgrey;
+    color: aliceblue;
+}

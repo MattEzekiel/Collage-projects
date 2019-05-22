@@ -1,0 +1,51 @@
+body {
+    background: url(img/fondo-1.jpg) no-repeat fixed center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transition: .5s ease all;
+}
+
+
+h1 {
+    font-size: 4.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.galeria {
+    color: orangered;
+}
+
+/*media query*/
+
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    ...
+}
+
+
+@media (min-width: 1200px) {
+
+    body {
+        background: url(img/fondo-2.jpg) no-repeat fixed center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        transition: .5s ease all;
+    }
+    .galeria {
+        color: #c503ff;
+        text-transform: capitalize;
+    }
+
+}
