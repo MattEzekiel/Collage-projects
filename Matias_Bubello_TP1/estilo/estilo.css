@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(../img/background.jpg)
+}
+
+em {
+    font-style: normal;
+}
+
+.quit {
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+ul#menu li {
+    padding-top: 20px;
+    display: inline;
+    margin: 0 auto;
+}
+
+div {
+    margin: auto;
+    margin-top: 5px;
+    background-color: white;
+}
+
+div.footer {
+    text-align: center;
+    background-color: darkcyan;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+div.footer p {
+    color: white;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Permanent Marker', cursive, sans-serif;
+    color: #f05555;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Merienda', cursive, sans-serif;
+}
+
+h3 {
+    font-family: 'Patrick Hand', cursive, sans-serif;
+}
+
+span#color {
+    color: #1491a8;
+}
+
+span#colorcito {
+    color: #20ac2a;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(../img/trama.jpg);
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #0d5046;
+    text-transform: uppercase;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 80px;
+    text-decoration: none;
+    box-shadow: 10px 10px 5px #0a4239;
+}
+
+#menu li a:hover {
+    background-color: #1dc2a9;
+}
+
+dd {
+    font-weight: none;
+}
+
+p.decadas {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.autor {
+    position: relative;
+    text-align: right;
+    padding-bottom: 150px;
+    overflow: auto;
+    height: 250px;
+}
+
+#yo {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.autor p {
+    margin-right: 530px;
+}
+
+.autor h2 {
+    margin-right: 530px;
+}
+
+#bibliografia {
+    text-decoration: none;
+}
+
+a.off {
+    text-decoration: none;
+    color: #30cc3b;
+}
+
+a.off:visited {
+    color: #13620d;
+}
+
+a.off:hover {
+    color: #28abe2;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    margin: 3px;
+}
+
+.centrado{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#bibliografia{
+    display: table;
+    margin: 0 auto;
+}
+
+#bibliografia ul li{
+    display: inline;
+    margin: 5rem;
+}
+
+blockquote{
+background-color: #b7b9b9;
+    font-size: 13px;
+}
+
+a.indice {
+    text-decoration: none;
+    color: #30cc3b;
+}
+
+a.indice:visited {
+    color: #13620d;
+}
+
+a.indice:hover {
+    color: #28abe2;
+}
+
+ul#indice li{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.volver{
+    font-size: 10px;
+    font-family: 'Fredoka One', cursive;
+}
